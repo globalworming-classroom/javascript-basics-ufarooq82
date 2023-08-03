@@ -61,11 +61,12 @@ console.log(typeof agile) // number
 
 <script type="application/javascript">
     const task = () => {
+      const someBoolean = false;
         // FIXME replace with values that aren't strings
         const types = [
-            "someBoolean",
-            "someNumber",
-            "someObject",
+            someBoolean,
+            1,
+            [],
             "someString"
         ]
         render(types);
